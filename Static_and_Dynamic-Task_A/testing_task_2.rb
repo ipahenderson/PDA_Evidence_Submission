@@ -21,8 +21,9 @@ end
 
 def looper
   for i in 1..10
-    return i if i > 9
+    puts i
   end
+  return i
 end
 
 failures = 0

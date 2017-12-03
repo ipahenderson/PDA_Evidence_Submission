@@ -24,9 +24,9 @@ end # extra 'end'
 
 def looper
   for i in 1..10
-  puts i #will print 1 to 10 needs to return 10
+  puts i
   end
-end
+end #return i after the loop 
 
 failures = 0
 
